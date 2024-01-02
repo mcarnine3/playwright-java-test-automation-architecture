@@ -136,7 +136,7 @@ The project is structured as follows:
     
       To use your newly created property, you need to use the below import statement.
       ```java
-      import static io.github.tahanima.config.ConfigurationManager.config;
+      import static config.io.github.com.carnine.ConfigurationManager.config;
       ```
     
       Then, you can call `config().key()` to retrieve the value of your newly created property. For the example I've provided, I need to call `config().context()`.
